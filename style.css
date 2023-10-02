@@ -1,0 +1,46 @@
+/* CSS Reset (jika diperlukan) */
+
+
+/* Style utama */
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #4b8fd7;
+}
+
+.certificate-container {
+    width: 45%;
+    /* Lebar container sertifikat */
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.certificate img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.certificate h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+.certificate p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #555;
+}
+
+
+/* Tambahkan gaya tambahan sesuai kebutuhan Anda */
